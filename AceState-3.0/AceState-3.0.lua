@@ -1,3 +1,24 @@
+-- TODO: Remove this from Ace fork. Author uninterested and also has
+-- misgivings about their own library suite anyway. I should have known
+-- when I realized the test suite was 5+ years out of date XD. Too tired
+-- to do this now but leaving this here as a reminder for later this week.
+
+-- TODO: Rather than return a reducer's dispatch function we should return a
+-- chainable API object that can be used to register actions with the reducer.
+-- This will grant the ability to see a manifest of actions a reducer can
+-- handle.
+
+-- TODO: Usage at first glance looks like a simple callback handler because
+-- simple usage examples don't show the full power of an immutable state lifecycle.
+-- Will need to provide more complex examples to show why this is cannot just be
+-- simply swapped with a simple callback handler system.
+
+-- TODO: Maybe it's time to consider my own library suite. I'm actually considering
+-- writing a suite of devtools as well and publishing them as VSCode and NeoVim plugins.
+-- Wowless is cool but I really feel like that project is ultimately doomed. I think just
+-- having a better dev experience while using the actual game client would be a much simpler
+-- undertaking that would still make addon development amazing.
+
 local MAJOR, MINOR = "AceState-3.0", 1
 local AceState, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
